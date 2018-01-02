@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+
+    <TextView
+        android:id="@+id/seventh_question"
+        style="@style/TextView1"
+        android:text="@string/seventh_question" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/austria" />
+
+
+    <CheckBox
+        android:id="@+id/Canberra"
+        style="@style/CheckBox"
+        android:text="@string/Canberra" />
+
+    <CheckBox
+        android:id="@+id/Vienna"
+        style="@style/CheckBox"
+        android:text="@string/Vienna" />
+
+    <CheckBox
+        android:id="@+id/Paris"
+        style="@style/CheckBox"
+        android:text="@string/Paris" />
+
+    <CheckBox
+        android:id="@+id/Madrid"
+        style="@style/CheckBox"
+        android:text="@string/Madrid" />
+
+    <CheckBox
+        android:id="@+id/Bern"
+        style="@style/CheckBox"
+        android:text="@string/Bern" />
+
+
+    <CheckBox
+        android:id="@+id/Rome"
+        style="@style/CheckBox"
+        android:text="@string/Rome" />
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="rightSeventhQuestion"
+        android:text="@string/next" />
+
+
+</LinearLayout>

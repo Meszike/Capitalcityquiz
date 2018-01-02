@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Capital city quiz</string>
+    <string name="ok">Ok</string>
+    <string name="introduction">How many of the world capitals do you know? You have to answer 7 questions correctly in this quiz. Let\'s check it! </string>
+    <string name="first_question">What is the capital city of Canada?  </string>
+    <string name="Prague">Prague</string>
+    <string name="ottawa">Ottawa</string>
+    <string name="Washington">Washington</string>
+    <string name="next">Next</string>
+    <string name="name_hint">Please, enter your name</string>
+    <string name="second_question">What is the capital city of Hungary?</string>
+    <string name="Bukarest">Bukarest</string>
+    <string name="Zagreb">Zagreb</string>
+    <string name="Budapest">Budapest</string>
+    <string name="third_question">What is the capital city of Mongolia?</string>
+    <string name="Minsk">Minsk</string>
+    <string name="Ulaanbaatar">Ulaanbaatar</string>
+    <string name="KualaLumpur">Kuala Lumpur</string>
+    <string name="fourth_question">What is the capital city of Argentina?</string>
+    <string name="Monaco">Monaco</string>
+    <string name="BuenosAires">Buenos Aires</string>
+    <string name="Dublin">Dublin</string>
+    <string name="fifth_question">What is the capital city of Japan?</string>
+    <string name="Bangkok">Bangkok</string>
+    <string name="Tokyo">Tokyo</string>
+    <string name="London">London</string>
+    <string name="sixth_question">What is the capital city of Poland?</string>
+    <string name="Warsaw">Warsaw</string>
+    <string name="Bogota">Bogotá</string>
+    <string name="Oslo">Oslo</string>
+    <string name="seventh_question">Which cities aren\'t capital cities of Austria?</string>
+    <string name="Canberra">Canberra</string>
+    <string name="Paris">Paris</string>
+    <string name="Vienna">Vienna</string>
+    <string name="Madrid">Madrid</string>
+    <string name="Bern">Bern</string>
+    <string name="Rome">Rome</string>
+    <string name="restart">Restart</string>
+    <string name="quit">Quit</string>
+    <string name="result">Congratulations! \nYour result:</string>
+    <string name="master">Dear Padawan!</string>
+    <string name="percent">0%</string>
+
+</resources>

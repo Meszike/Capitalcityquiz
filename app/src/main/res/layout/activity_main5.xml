@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+    <TextView
+        android:id="@+id/fifth_question"
+        style="@style/TextView1"
+        android:text="@string/fifth_question" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/japan" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Bangkok"
+            style="@style/RadioButton"
+            android:text="@string/Bangkok" />
+
+        <RadioButton
+            android:id="@+id/Tokyo"
+            style="@style/RadioButton"
+            android:text="@string/Tokyo" />
+
+        <RadioButton
+            android:id="@+id/London"
+            style="@style/RadioButton"
+            android:text="@string/London" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="rightFifthQuestion"
+        android:text="@string/next" />
+
+</LinearLayout>

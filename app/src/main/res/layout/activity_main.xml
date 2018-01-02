@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        style="@style/editText"
+        android:hint="@string/name_hint"/>
+
+    <Button
+        android:id="@+id/button_ok"
+        style="@style/Button"
+        android:onClick="ok"
+        android:text="Ok"/>
+
+    <TextView
+        android:id="@+id/introduction"
+        android:text="@string/introduction"
+        style="@style/TextView"/>
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/capital"/>
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="nextToFirstQuestion"
+        android:text="@string/next"/>
+
+</LinearLayout>
+

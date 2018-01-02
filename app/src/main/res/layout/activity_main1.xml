@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+    <TextView
+        android:id="@+id/first_question"
+        android:text="@string/first_question"
+        style="@style/TextView1"/>
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/canada"
+        />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        >
+
+        <RadioButton
+            android:id="@+id/ottawa"
+            android:text="@string/ottawa"
+            style="@style/RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/Washington"
+            android:text="@string/Washington"
+            style="@style/RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/Prague"
+            android:text="@string/Prague"
+            style="@style/RadioButton"
+            />
+    </RadioGroup>
+
+    <Button
+        style="@style/nextButton"
+        android:onClick="rightFirstQuestion"
+        android:text="@string/next"
+        />
+
+</LinearLayout>

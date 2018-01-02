@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+
+    <TextView
+        android:id="@+id/sixth_question"
+        style="@style/TextView1"
+        android:text="@string/sixth_question" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/warsaw" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Warsaw"
+            style="@style/RadioButton"
+            android:text="@string/Warsaw" />
+
+        <RadioButton
+            android:id="@+id/Bogota"
+            style="@style/RadioButton"
+            android:text="@string/Bogota" />
+
+        <RadioButton
+            android:id="@+id/Oslo"
+            style="@style/RadioButton"
+            android:text="@string/Oslo" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="rightSixthQuestion"
+        android:text="@string/next" />
+
+
+</LinearLayout>

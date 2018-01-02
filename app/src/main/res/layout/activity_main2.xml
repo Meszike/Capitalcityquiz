@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+    <TextView
+        android:id="@+id/second_question"
+        style="@style/TextView1"
+        android:text="@string/second_question" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/hungary" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RadioButton
+            android:id="@+id/Bukarest"
+            style="@style/RadioButton"
+            android:text="@string/Bukarest" />
+
+        <RadioButton
+            android:id="@+id/Zagreb"
+            style="@style/RadioButton"
+            android:text="@string/Zagreb" />
+
+        <RadioButton
+            android:id="@+id/Budapest"
+            style="@style/RadioButton"
+            android:text="@string/Budapest" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="rightSecondQuestion"
+        android:text="@string/next" />
+
+</LinearLayout>

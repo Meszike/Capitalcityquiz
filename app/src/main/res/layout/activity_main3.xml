@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+    <TextView
+        android:id="@+id/third_question"
+        style="@style/TextView1"
+        android:text="@string/third_question" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/mongolia" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Minsk"
+            style="@style/RadioButton"
+            android:text="@string/Minsk" />
+
+        <RadioButton
+            android:id="@+id/Ulaanbaatar"
+            style="@style/RadioButton"
+            android:text="@string/Ulaanbaatar" />
+
+        <RadioButton
+            android:id="@+id/KualaLumpur"
+            style="@style/RadioButton"
+            android:text="@string/KualaLumpur" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/nextButton"
+        android:onClick="rightThirdQuestion"
+        android:text="@string/next" />
+
+</LinearLayout>

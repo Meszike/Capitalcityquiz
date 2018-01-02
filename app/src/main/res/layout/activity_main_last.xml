@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is a really nice achievement, you&apos;re smart" />
+
+    <TextView
+        android:id="@+id/seventh_question"
+        android:text="@string/result"
+        style="@style/TextView2" />
+
+    <TextView
+        android:id="@+id/percent"
+        style="@style/Percent" />
+
+    <TextView
+        android:id="@+id/evaluation"
+        style="@style/Percent" />
+
+    <ImageView
+        style="@style/ImageView"
+        android:src="@drawable/graduation" />
+
+    <Button
+        android:id="@+id/button_restart"
+        style="@style/nextButton"
+        android:onClick="restart"
+        android:text="@string/restart" />
+
+</LinearLayout>
